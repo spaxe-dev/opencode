@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="240" height="72" viewBox="0 0 240 72" fill="currentColor" color="#9aa4af" font-family="ui-monospace, SFMono-Regular, Menlo, monospace">
+  <style>
+    .t1, .t2, .t3, .t4 { animation: tag 3.2s ease-in-out infinite; }
+    .t2 { animation-delay: .1s } .t3 { animation-delay: .2s } .t4 { animation-delay: .3s }
+    .bar { animation: bar 3.2s ease-in-out infinite; }
+    @keyframes tag { 0%, 8% { opacity: 0 } 26%, 86% { opacity: .9 } 100% { opacity: 0 } }
+    @keyframes bar { 0%, 18% { opacity: .35 } 36%, 92% { opacity: 1 } 100% { opacity: .35 } }
+  </style>
+  <text x="12" y="15" font-size="9" opacity=".45">`out/report.md`</text>
+  <g class="t1"><text x="150" y="15" font-size="9" font-weight="700">1</text></g>
+  <text x="12" y="27" font-size="9" opacity=".45">"My Notes/plan.md"</text>
+  <g class="t2"><text x="150" y="27" font-size="9" font-weight="700">2</text></g>
+  <text x="12" y="39" font-size="9" opacity=".45">[parser](src/parser.ts)</text>
+  <g class="t3"><text x="150" y="39" font-size="9" font-weight="700">3</text></g>
+  <text x="12" y="51" font-size="9" opacity=".45">file:///tmp/report.md#L12C3</text>
+  <g class="t4"><text x="164" y="51" font-size="9" font-weight="700">4</text></g>
+  <g class="bar">
+    <rect x="12" y="58" width="216" height="1" opacity=".15"/>
+    <text x="12" y="70" font-size="8" opacity=".8">● Paths 4 · type number</text>
+  </g>
+</svg>

@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="240" height="72" viewBox="0 0 240 72" fill="currentColor" color="#9aa4af" font-family="ui-monospace, SFMono-Regular, Menlo, monospace">
+  <style>
+    .frame { animation: frame 3s ease-in-out infinite; }
+    .tag { animation: tag 3s ease-in-out infinite; }
+    .key { animation: key 3s steps(1) infinite; }
+    @keyframes frame { 0%, 10% { opacity: .45 } 30%, 88% { opacity: .8 } 100% { opacity: .45 } }
+    @keyframes tag { 0%, 20% { opacity: 0 } 40%, 86% { opacity: .95 } 100% { opacity: 0 } }
+    @keyframes key { 0%, 20% { opacity: .4 } 40%, 70% { opacity: 1 } 90%, 100% { opacity: .4 } }
+  </style>
+  <rect class="frame" x="10" y="8" width="220" height="42" rx="3" fill="none" stroke="currentColor" stroke-opacity=".35"/>
+  <text x="18" y="22" font-size="8" opacity=".55">Storybook · path-picker</text>
+  <text x="18" y="34" font-size="9" opacity=".8">Updated out/report.md</text>
+  <g class="tag"><text x="156" y="34" font-size="9" font-weight="700">●1</text></g>
+  <text x="18" y="44" font-size="9" opacity=".8">and "My Notes/plan.md"</text>
+  <g class="tag" style="animation-delay:.15s"><text x="164" y="44" font-size="9" font-weight="700">○2</text></g>
+  <rect x="10" y="54" width="220" height="1" opacity=".15"/>
+  <g class="key"><text x="12" y="68" font-size="8" font-weight="700">p</text></g>
+  <text x="20" y="68" font-size="8" opacity=".55">picker · m multi · a all · enter open · w width · r reset</text>
+</svg>

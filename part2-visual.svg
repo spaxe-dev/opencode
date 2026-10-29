@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="240" height="72" viewBox="0 0 240 72" fill="currentColor" color="#9aa4af" font-family="ui-monospace, SFMono-Regular, Menlo, monospace">
+  <style>
+    .box { animation: box 3s ease-in-out infinite; }
+    .box2 { animation: box2 3s ease-in-out infinite; }
+    @keyframes box { 0%, 8% { opacity: .3 } 26%, 88% { opacity: 1 } 100% { opacity: .3 } }
+    @keyframes box2 { 0%, 22% { opacity: .3 } 42%, 88% { opacity: 1 } 100% { opacity: .3 } }
+  </style>
+  <text x="12" y="22" font-size="11" opacity=".45">Fixed</text>
+  <text x="48" y="22" font-size="11">out/parser.ts:44</text>
+  <g class="box"><text x="162" y="22" font-size="10" font-weight="700">[x] 1</text></g>
+  <text x="12" y="38" font-size="11" opacity=".45">and</text>
+  <text x="36" y="38" font-size="11">out/parser.test.ts</text>
+  <g class="box2"><text x="178" y="38" font-size="10" font-weight="700">[x] 2</text></g>
+  <rect x="12" y="48" width="216" height="1" opacity=".15"/>
+  <text x="12" y="64" font-size="9" opacity=".85">● Paths 2 selected</text>
+  <text x="100" y="64" font-size="9" opacity=".55">· enter open</text>
+</svg>
